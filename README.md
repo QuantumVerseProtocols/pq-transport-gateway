@@ -2,24 +2,31 @@
 
 A security gateway that replaces vulnerable classical TLS (Transport Layer Security) with post-quantum cryptography for QKD infrastructure, protecting against quantum computer attacks on authentication and transport.
 
-## Problem Statement
+![Before vs After PQTG](docs/diagrams/before_after.png)
 
-QKD vendors (Toshiba, IDQuantique) use classical TLS for their management APIs, creating a vulnerability where TLS certificates could be compromised by quantum computers, allowing attackers to steal quantum keys.
+## The Problem: QKD's Achilles Heel
 
-## Solution
+![Current Vulnerability](docs/diagrams/current_vulnerability.png)
 
-This proxy:
+QKD vendors (Toshiba, IDQuantique) use classical TLS for their management APIs, creating a vulnerability where TLS certificates could be compromised by quantum computers, allowing attackers to steal quantum keys. This completely undermines the quantum security that QKD is supposed to provide!
+
+## The Solution: PQTG
+
+![PQTG Solution](docs/diagrams/pqtg_solution.png)
+
+PQTG acts as a quantum-safe shield:
 1. Runs directly on the QKD machine (localhost access only)
 2. Exposes a quantum-safe API using Falcon + SPHINCS+
 3. Translates requests to the vendor's TLS API
 4. Ensures external access is always post-quantum secure
 
-## Architecture
+## How It Works
 
-```
-[QSSH Client] <---(Falcon+SPHINCS+)---> [PQTG] <---(localhost TLS)---> [QKD API]
-                  Quantum-Safe                                  Classical (Hidden)
-```
+![Protocol Flow](docs/diagrams/protocol_flow.png)
+
+## Deployment Architecture
+
+![Deployment Architecture](docs/diagrams/deployment_architecture.png)
 
 ## Installation
 
