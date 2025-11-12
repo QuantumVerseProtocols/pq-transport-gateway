@@ -1,5 +1,7 @@
 # PQTG - Post-Quantum Transport Gateway
-
+📄 Citation:
+S. Cormier, "Residual Classical Vulnerabilities in Quantum Key Distribution Control Channels," 
+Cryptology ePrint Archive, Paper 2025/106693, 2025.
 A security gateway that replaces vulnerable classical TLS (Transport Layer Security) with post-quantum cryptography for QKD infrastructure, protecting against quantum computer attacks on authentication and transport.
 
 ![Before vs After PQTG](docs/diagrams/before_after.png)
