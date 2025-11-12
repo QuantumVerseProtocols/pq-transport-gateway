@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: pqtg_whitepaper.aux
+The style file: plain.bst
+I found no \bibdata command---while reading file pqtg_whitepaper.aux
+Warning--I didn't find a database entry for "gisin2002quantum"
+Warning--I didn't find a database entry for "bennett1984quantum"
+Warning--I didn't find a database entry for "ekert1991quantum"
+Warning--I didn't find a database entry for "mehic2020quantum"
+Warning--I didn't find a database entry for "shor1997polynomial"
+Warning--I didn't find a database entry for "mosca2018cybersecurity"
+Warning--I didn't find a database entry for "nsa2022quantum"
+Warning--I didn't find a database entry for "avanzi2020crystals"
+Warning--I didn't find a database entry for "nist2024pqc"
+Warning--I didn't find a database entry for "jiang2018indcca"
+Warning--I didn't find a database entry for "pornin2020falcon"
+Warning--I didn't find a database entry for "stebila2023hybrid"
+Warning--I didn't find a database entry for "stebila2016postquantum"
+Warning--I didn't find a database entry for "langley2023protecting"
+Warning--I didn't find a database entry for "makarov2016creation"
+Warning--I didn't find a database entry for "xu2020secure"
+Warning--I didn't find a database entry for "scarani2009security"
+You've used 0 entries,
+            2118 wiz_defined-function locations,
+            513 strings with 4293 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There was 1 error message)
